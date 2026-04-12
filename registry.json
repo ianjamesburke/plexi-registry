@@ -7,7 +7,10 @@
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/github-issues",
-    "tags": ["productivity", "git"]
+    "tags": [
+      "productivity",
+      "git"
+    ]
   },
   {
     "id": "git-log",
@@ -17,7 +20,10 @@
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/git-log",
-    "tags": ["productivity", "git"]
+    "tags": [
+      "productivity",
+      "git"
+    ]
   },
   {
     "id": "git-blame",
@@ -27,7 +33,10 @@
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/git-blame",
-    "tags": ["productivity", "git"]
+    "tags": [
+      "productivity",
+      "git"
+    ]
   },
   {
     "id": "wikipedia",
@@ -37,7 +46,9 @@
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/wikipedia",
-    "tags": ["reference"]
+    "tags": [
+      "reference"
+    ]
   },
   {
     "id": "navigator",
@@ -47,7 +58,10 @@
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/navigator",
-    "tags": ["productivity", "files"]
+    "tags": [
+      "productivity",
+      "files"
+    ]
   },
   {
     "id": "clipboard-stack",
@@ -57,17 +71,24 @@
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/clipboard-stack",
-    "tags": ["productivity", "utility"]
+    "tags": [
+      "productivity",
+      "utility"
+    ]
   },
   {
     "id": "parallax",
     "name": "Parallax",
-    "description": "AI-powered video production suite — generate stills, animate, edit.",
-    "version": "1.0.0",
+    "description": "Video project viewer \u2014 watch scenes, stills, and rendered output update live as your AI pipeline runs",
+    "version": "0.1.0",
     "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/parallax",
-    "tags": ["creative", "ai"]
+    "repo": "ianjamesburke/parallax",
+    "path": "plexi",
+    "branch": "main",
+    "tags": [
+      "creative",
+      "ai"
+    ]
   },
   {
     "id": "process-monitor",
@@ -77,77 +98,99 @@
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/process-monitor",
-    "tags": ["system", "utility"]
+    "tags": [
+      "system",
+      "utility"
+    ]
   },
   {
     "id": "port-watcher",
     "name": "Port Watcher",
-    "description": "Live network port monitor — watch connections swarm like bees.",
+    "description": "Live network port monitor \u2014 watch connections swarm like bees.",
     "version": "1.0.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/port-watcher",
-    "tags": ["system", "network"]
+    "tags": [
+      "system",
+      "network"
+    ]
   },
   {
     "id": "pulse",
     "name": "Pulse",
-    "description": "Visual beat sequencer — build rhythms, watch them pulse.",
+    "description": "Visual beat sequencer \u2014 build rhythms, watch them pulse.",
     "version": "1.0.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/pulse",
-    "tags": ["creative", "music"]
+    "tags": [
+      "creative",
+      "music"
+    ]
   },
   {
     "id": "sandfall",
     "name": "Sandfall",
-    "description": "Falling-sand physics toy — pour sand, water, fire, and ice.",
+    "description": "Falling-sand physics toy \u2014 pour sand, water, fire, and ice.",
     "version": "1.0.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/sandfall",
-    "tags": ["game", "toy"]
+    "tags": [
+      "game",
+      "toy"
+    ]
   },
   {
     "id": "seedclock",
     "name": "Seedclock",
-    "description": "One-season farming game — race to 50 coins before the frost.",
+    "description": "One-season farming game \u2014 race to 50 coins before the frost.",
     "version": "1.0.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/seedclock",
-    "tags": ["game"]
+    "tags": [
+      "game"
+    ]
   },
   {
     "id": "apiary",
     "name": "Apiary",
-    "description": "Manage a beehive through summer — harvest honey before the cold.",
+    "description": "Manage a beehive through summer \u2014 harvest honey before the cold.",
     "version": "1.0.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/apiary",
-    "tags": ["game", "simulation"]
+    "tags": [
+      "game",
+      "simulation"
+    ]
   },
   {
     "id": "lichen",
     "name": "Lichen",
-    "description": "Cellular automaton art toy — watch colonies bloom, branch, and crumble.",
+    "description": "Cellular automaton art toy \u2014 watch colonies bloom, branch, and crumble.",
     "version": "1.0.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/lichen",
-    "tags": ["creative", "toy"]
+    "tags": [
+      "creative",
+      "toy"
+    ]
   },
   {
     "id": "snake",
     "name": "Snake",
-    "description": "Classic Snake — arrow keys, fixed-tick game loop, speed increases.",
+    "description": "Classic Snake \u2014 arrow keys, fixed-tick game loop, speed increases.",
     "version": "1.0.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/snake",
-    "tags": ["game"]
+    "tags": [
+      "game"
+    ]
   },
   {
     "id": "aquarium",
@@ -157,7 +200,10 @@
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/aquarium",
-    "tags": ["ambient", "toy"]
+    "tags": [
+      "ambient",
+      "toy"
+    ]
   },
   {
     "id": "pyflow",
@@ -167,6 +213,9 @@
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/pyflow",
-    "tags": ["productivity", "code"]
+    "tags": [
+      "productivity",
+      "code"
+    ]
   }
 ]
