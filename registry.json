@@ -1,0 +1,172 @@
+[
+  {
+    "id": "github-issues",
+    "name": "GitHub Issues",
+    "description": "Browse and manage GitHub issues without leaving the terminal.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/github-issues",
+    "tags": ["productivity", "git"]
+  },
+  {
+    "id": "git-log",
+    "name": "Git Log",
+    "description": "Visual git log browser with commit details.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/git-log",
+    "tags": ["productivity", "git"]
+  },
+  {
+    "id": "git-blame",
+    "name": "Git Blame Lens",
+    "description": "Live git blame with age-colored commits and inline diff viewer.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/git-blame",
+    "tags": ["productivity", "git"]
+  },
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia",
+    "description": "Browse Wikipedia articles in a split-pane reader.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/wikipedia",
+    "tags": ["reference"]
+  },
+  {
+    "id": "navigator",
+    "name": "Navigator",
+    "description": "Keyboard-driven directory hotlist and file launcher.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/navigator",
+    "tags": ["productivity", "files"]
+  },
+  {
+    "id": "clipboard-stack",
+    "name": "Clipboard Stack",
+    "description": "Persistent clipboard history with fuzzy search and pinned entries.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/clipboard-stack",
+    "tags": ["productivity", "utility"]
+  },
+  {
+    "id": "parallax",
+    "name": "Parallax",
+    "description": "AI-powered video production suite — generate stills, animate, edit.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/parallax",
+    "tags": ["creative", "ai"]
+  },
+  {
+    "id": "process-monitor",
+    "name": "Process Monitor",
+    "description": "Live system process monitor with CPU and memory usage.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/process-monitor",
+    "tags": ["system", "utility"]
+  },
+  {
+    "id": "port-watcher",
+    "name": "Port Watcher",
+    "description": "Live network port monitor — watch connections swarm like bees.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/port-watcher",
+    "tags": ["system", "network"]
+  },
+  {
+    "id": "pulse",
+    "name": "Pulse",
+    "description": "Visual beat sequencer — build rhythms, watch them pulse.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/pulse",
+    "tags": ["creative", "music"]
+  },
+  {
+    "id": "sandfall",
+    "name": "Sandfall",
+    "description": "Falling-sand physics toy — pour sand, water, fire, and ice.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/sandfall",
+    "tags": ["game", "toy"]
+  },
+  {
+    "id": "seedclock",
+    "name": "Seedclock",
+    "description": "One-season farming game — race to 50 coins before the frost.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/seedclock",
+    "tags": ["game"]
+  },
+  {
+    "id": "apiary",
+    "name": "Apiary",
+    "description": "Manage a beehive through summer — harvest honey before the cold.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/apiary",
+    "tags": ["game", "simulation"]
+  },
+  {
+    "id": "lichen",
+    "name": "Lichen",
+    "description": "Cellular automaton art toy — watch colonies bloom, branch, and crumble.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/lichen",
+    "tags": ["creative", "toy"]
+  },
+  {
+    "id": "snake",
+    "name": "Snake",
+    "description": "Classic Snake — arrow keys, fixed-tick game loop, speed increases.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/snake",
+    "tags": ["game"]
+  },
+  {
+    "id": "aquarium",
+    "name": "Aquarium",
+    "description": "Ambient underwater scene with animated fish and plants.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/aquarium",
+    "tags": ["ambient", "toy"]
+  },
+  {
+    "id": "pyflow",
+    "name": "PyFlow",
+    "description": "Visual node graph editor for Python data pipelines.",
+    "version": "1.0.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/pyflow",
+    "tags": ["productivity", "code"]
+  }
+]
