@@ -1,5 +1,18 @@
 [
   {
+    "id": "app-store",
+    "name": "App Store",
+    "description": "Plexi app store — browse and install apps.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/app-store",
+    "tags": [
+      "productivity",
+      "utility"
+    ]
+  },
+  {
     "id": "github-issues",
     "name": "GitHub Issues",
     "description": "Browse and manage GitHub issues without leaving the terminal.",
