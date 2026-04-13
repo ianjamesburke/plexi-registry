@@ -95,8 +95,8 @@
     "description": "Video project viewer \u2014 watch scenes, stills, and rendered output update live as your AI pipeline runs",
     "version": "0.1.0",
     "author": "ianjamesburke",
-    "repo": "ianjamesburke/parallax",
-    "path": "plexi",
+    "repo": "ianjamesburke/parallax-app",
+    "path": "",
     "branch": "main",
     "tags": [
       "creative",
