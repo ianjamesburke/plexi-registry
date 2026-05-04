@@ -2,233 +2,177 @@
   {
     "id": "app-store",
     "name": "App Store",
-    "description": "Plexi app store — browse and install apps.",
-    "version": "0.1.0",
+    "description": "Browse and install Plexi apps without leaving the terminal.",
+    "version": "1.0.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/app-store",
-    "tags": [
-      "productivity",
-      "utility"
-    ]
-  },
-  {
-    "id": "github-issues",
-    "name": "GitHub Issues",
-    "description": "Browse and manage GitHub issues without leaving the terminal.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/github-issues",
-    "tags": [
-      "productivity",
-      "git"
-    ]
-  },
-  {
-    "id": "git-log",
-    "name": "Git Log",
-    "description": "Visual git log browser with commit details.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/git-log",
-    "tags": [
-      "productivity",
-      "git"
-    ]
-  },
-  {
-    "id": "git-blame",
-    "name": "Git Blame Lens",
-    "description": "Live git blame with age-colored commits and inline diff viewer.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/git-blame",
-    "tags": [
-      "productivity",
-      "git"
-    ]
+    "core": true,
+    "tags": ["productivity", "utility"]
   },
   {
     "id": "wikipedia",
     "name": "Wikipedia",
     "description": "Browse Wikipedia articles in a split-pane reader.",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
     "path": "examples/wikipedia",
-    "tags": [
-      "reference"
-    ]
+    "core": true,
+    "tags": ["reference"]
   },
   {
-    "id": "navigator",
-    "name": "Navigator",
-    "description": "Keyboard-driven directory hotlist and file launcher.",
-    "version": "1.0.0",
+    "id": "snake",
+    "name": "Snake",
+    "description": "Classic Snake — arrow keys, fixed-tick game loop, speed increases with score.",
+    "version": "0.1.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
-    "path": "examples/navigator",
-    "tags": [
-      "productivity",
-      "files"
-    ]
+    "path": "examples/snake",
+    "core": true,
+    "tags": ["game"]
   },
   {
-    "id": "clipboard-stack",
-    "name": "Clipboard Stack",
-    "description": "Persistent clipboard history with fuzzy search and pinned entries.",
-    "version": "1.0.0",
+    "id": "tetris",
+    "name": "Tetris",
+    "description": "Classic Tetris with a 60 fps game loop.",
+    "version": "0.1.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/PLEXI",
-    "path": "examples/clipboard-stack",
-    "tags": [
-      "productivity",
-      "utility"
-    ]
+    "path": "examples/tetris",
+    "core": true,
+    "tags": ["game"]
+  },
+  {
+    "id": "todo",
+    "name": "Todo",
+    "description": "Simple todo list persisted to your workspace.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/todo",
+    "core": true,
+    "tags": ["productivity"]
+  },
+  {
+    "id": "quick-note",
+    "name": "Quick Note",
+    "description": "Markdown note composer and browser. Notes saved to your workspace.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/quick-note",
+    "core": true,
+    "tags": ["productivity"]
+  },
+  {
+    "id": "mind-map",
+    "name": "Mind Map",
+    "description": "Keyboard-driven mind map canvas — create and navigate idea nodes with vim-style movement.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/mind-map",
+    "core": true,
+    "tags": ["productivity", "creative"]
+  },
+  {
+    "id": "commit-graph",
+    "name": "Commit Graph",
+    "description": "Subway-style git commit history for the current repo.",
+    "version": "0.3.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/github-tree",
+    "core": true,
+    "tags": ["git", "productivity"]
+  },
+  {
+    "id": "screen-time",
+    "name": "Screen Time",
+    "description": "Pie chart of macOS app usage from the last 7 days.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/screen-time",
+    "core": true,
+    "tags": ["system", "utility"]
+  },
+  {
+    "id": "stand-up-reminder",
+    "name": "Stand Up Reminder",
+    "description": "Background app that notifies you every 15 minutes with a random movement prompt.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/stand-up-reminder",
+    "core": true,
+    "tags": ["utility", "health"]
+  },
+  {
+    "id": "audio-player",
+    "name": "Audio Player",
+    "description": "Play audio files from the file browser — mp3, wav, flac, m4a, and more.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/audio-player",
+    "core": true,
+    "tags": ["media", "creative"]
+  },
+  {
+    "id": "video-player",
+    "name": "Video Player",
+    "description": "Play video files directly inside Plexi with synchronized terminal output.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/video-player",
+    "core": true,
+    "tags": ["media", "creative"]
+  },
+  {
+    "id": "video-editor",
+    "name": "Video Editor",
+    "description": "Non-linear video editor — timeline, panels, and arrangement view.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/video-editor",
+    "core": true,
+    "tags": ["media", "creative"]
+  },
+  {
+    "id": "daw",
+    "name": "DAW",
+    "description": "Techno loop sequencer with physics-driven modulation and arrangement view.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/daw",
+    "core": true,
+    "tags": ["music", "creative"]
+  },
+  {
+    "id": "storyboard",
+    "name": "Storyboard",
+    "description": "Arrange scenes with image placeholders, descriptions, and dialogue.",
+    "version": "0.1.0",
+    "author": "ianjamesburke",
+    "repo": "ianjamesburke/PLEXI",
+    "path": "examples/storyboard",
+    "core": true,
+    "tags": ["creative"]
   },
   {
     "id": "parallax",
     "name": "Parallax",
-    "description": "Video project viewer \u2014 watch scenes, stills, and rendered output update live as your AI pipeline runs",
+    "description": "Video project viewer — watch scenes, stills, and rendered output update live as your AI pipeline runs.",
     "version": "0.1.0",
     "author": "ianjamesburke",
     "repo": "ianjamesburke/parallax-app",
     "path": "",
     "branch": "main",
-    "tags": [
-      "creative",
-      "ai"
-    ]
-  },
-  {
-    "id": "process-monitor",
-    "name": "Process Monitor",
-    "description": "Live system process monitor with CPU and memory usage.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/process-monitor",
-    "tags": [
-      "system",
-      "utility"
-    ]
-  },
-  {
-    "id": "port-watcher",
-    "name": "Port Watcher",
-    "description": "Live network port monitor \u2014 watch connections swarm like bees.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/port-watcher",
-    "tags": [
-      "system",
-      "network"
-    ]
-  },
-  {
-    "id": "pulse",
-    "name": "Pulse",
-    "description": "Visual beat sequencer \u2014 build rhythms, watch them pulse.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/pulse",
-    "tags": [
-      "creative",
-      "music"
-    ]
-  },
-  {
-    "id": "sandfall",
-    "name": "Sandfall",
-    "description": "Falling-sand physics toy \u2014 pour sand, water, fire, and ice.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/sandfall",
-    "tags": [
-      "game",
-      "toy"
-    ]
-  },
-  {
-    "id": "seedclock",
-    "name": "Seedclock",
-    "description": "One-season farming game \u2014 race to 50 coins before the frost.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/seedclock",
-    "tags": [
-      "game"
-    ]
-  },
-  {
-    "id": "apiary",
-    "name": "Apiary",
-    "description": "Manage a beehive through summer \u2014 harvest honey before the cold.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/apiary",
-    "tags": [
-      "game",
-      "simulation"
-    ]
-  },
-  {
-    "id": "lichen",
-    "name": "Lichen",
-    "description": "Cellular automaton art toy \u2014 watch colonies bloom, branch, and crumble.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/lichen",
-    "tags": [
-      "creative",
-      "toy"
-    ]
-  },
-  {
-    "id": "snake",
-    "name": "Snake",
-    "description": "Classic Snake \u2014 arrow keys, fixed-tick game loop, speed increases.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/snake",
-    "tags": [
-      "game"
-    ]
-  },
-  {
-    "id": "aquarium",
-    "name": "Aquarium",
-    "description": "Ambient underwater scene with animated fish and plants.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/aquarium",
-    "tags": [
-      "ambient",
-      "toy"
-    ]
-  },
-  {
-    "id": "pyflow",
-    "name": "PyFlow",
-    "description": "Visual node graph editor for Python data pipelines.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/pyflow",
-    "tags": [
-      "productivity",
-      "code"
-    ]
+    "tags": ["media", "ai", "creative"]
   }
 ]
