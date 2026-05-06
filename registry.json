@@ -1,16 +1,5 @@
 [
   {
-    "id": "app-store",
-    "name": "App Store",
-    "description": "Browse and install Plexi apps without leaving the terminal.",
-    "version": "1.0.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/app-store",
-    "core": true,
-    "tags": ["productivity", "utility"]
-  },
-  {
     "id": "wikipedia",
     "name": "Wikipedia",
     "description": "Browse Wikipedia articles in a split-pane reader.",
@@ -130,28 +119,6 @@
     "path": "examples/video-player",
     "core": true,
     "tags": ["media", "creative"]
-  },
-  {
-    "id": "video-editor",
-    "name": "Video Editor",
-    "description": "Non-linear video editor — timeline, panels, and arrangement view.",
-    "version": "0.1.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/video-editor",
-    "core": true,
-    "tags": ["media", "creative"]
-  },
-  {
-    "id": "daw",
-    "name": "DAW",
-    "description": "Techno loop sequencer with physics-driven modulation and arrangement view.",
-    "version": "0.1.0",
-    "author": "ianjamesburke",
-    "repo": "ianjamesburke/PLEXI",
-    "path": "examples/daw",
-    "core": true,
-    "tags": ["music", "creative"]
   },
   {
     "id": "storyboard",
